@@ -1,0 +1,705 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+#toolbar-administration {
+	display: none;
+}
+
+h1 {
+	font-size: 3.5rem;
+	text-transform: uppercase;
+}
+h2 {
+    font-size: 3rem;
+}
+h3 {
+	font-size: 36px;
+}
+h4 {
+	font-size: 34px;
+}
+h5 {
+	font-size: 1.5rem;
+}
+p {
+	line-height: 0.1;
+	font-size: 0.9rem;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.3)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-toggler {
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-left: 1rem;
+}
+#navbar-top {
+	max-width: 1104px;
+	justify-content: center;
+	margin: 0 auto;
+    padding: 1.8rem 0;
+}
+.img-fluid {
+    max-width: 80%;
+}
+#block-callus,
+#block-writetous,
+#block-address {
+	padding-left: 2rem;
+	font: 0.9rem "Roboto";
+}
+.call_us {
+	opacity: 0.99;
+	line-height: 1.2;
+}
+
+.call_us::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+	background: url(../img/phone-call.svg) no-repeat;
+	width: 35px;
+	height: 35px;
+	opacity: 0.2;
+}
+.call_us span {
+	padding-left: 3rem;
+	color: #828282;
+}
+.call_us a {
+	padding-left: 3rem;
+	color: #3F3F3F;
+	text-transform: uppercase;
+}
+.call_us a:hover {
+	color: #3F3F3F;
+}
+.write_to_us {
+	opacity: 0.99;
+	line-height: 1.2;
+}
+.write_to_us::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+	background: url(../img/envelope.svg) no-repeat;
+	width: 35px;
+	height: 35px;
+	opacity: 0.2;
+}
+.write_to_us span {
+	padding-left: 3rem;
+	color: #828282;
+}
+.write_to_us a {
+	padding-left: 3rem;
+	color: #3F3F3F;
+	text-transform: uppercase;
+}
+.write_to_us a:hover {
+	color: #3F3F3F;
+}
+.our_address {
+	opacity: 0.99;
+	line-height: 1.2;
+}
+.our_address::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+	background: url(../img/placeholder.svg) no-repeat;
+	width: 35px;
+	height: 35px;
+	opacity: 0.2;
+}
+.our_address span {
+	padding-left: 3rem;
+	color: #828282;
+}
+.our_address address {
+	padding-left: 3rem;
+	color: #3F3F3F;
+	text-transform: uppercase;
+}
+.our_address address:hover {
+	color: #3F3F3F;
+}
+#navbar-main {
+	width: 100%;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	height: 70px;
+	padding: 0;
+}
+#CollapsingNavbar {
+	width: 100%;
+	justify-content: center;
+	height: 100%;
+}
+#block-barrio-logistics-main-menu {
+	font: bold 18px "Roboto Condensed";
+	height: 100%;
+	align-items: center;
+    display: flex;
+}
+#block-barrio-logistics-main-menu ul,
+#block-barrio-logistics-main-menu ul li {
+	background: #fff;
+	height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+#block-barrio-logistics-main-menu ul li {
+	height: 100%;
+}
+#block-barrio-logistics-main-menu ul li:hover,
+#block-barrio-logistics-main-menu ul li:focus {
+	border-top: 2px solid #1837AC;
+}
+#block-barrio-logistics-main-menu ul li a{
+	border-right: 1px solid #DBDBDB;
+	color: #3F3F3F;
+	text-transform: uppercase;
+	padding: 0.7rem 2rem;
+    line-height: .9;
+}
+ul.nav.navbar-nav.social li {
+	padding-left: 30px;
+}
+#main {
+	padding: 0;
+}
+.section {
+	width: 100%;
+}
+#content {
+	display: flex;
+}
+.get_quotation {
+	padding-left: 121px;
+	list-style: none;
+}
+.get_quotation a {
+	color: #1837AC;
+	color: #3F3F3F;
+	font: bold 18px "Roboto Condensed";
+	text-transform: uppercase;
+	text-decoration: none;
+	border-bottom: 1px dashed #1837AC;
+}
+#content {
+	background: #f4f4f4 url(../img/Hero_img.png) no-repeat;
+	display: flex;
+	padding: 0;
+	background-size: 100%;
+}
+#block-heroscreen {
+	width: 100%;
+}
+.hero_screen {
+	color: #fff;
+	text-align: center;
+	margin-top: 5.5rem;
+}
+.hero_screen h1 {
+	margin-bottom: 1.4rem;
+}
+#hero_buttons button {
+	margin: 1rem;
+    font: bold 0.8rem "Roboto Condensed";
+    border: 2px solid #FFFFFF;
+    padding: 0.8rem;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    color: #1837AC;
+}
+#hero_buttons button:hover,
+#hero_buttons button:focus,
+#hero_buttons button:active {
+	background-color: transparent;
+	color: #fff;
+	text-decoration: none;
+}
+#block-sargostorage {
+	margin: 6rem 0;
+}
+.field__items.services {
+	display: flex;
+	flex-wrap: wrap;
+	height: 541px;
+	margin-top: 158px;
+}
+.field__item.service {
+	margin: 2rem 1rem;
+}
+.paragraph--type--services {
+	position: relative;
+	background-color: #FFFFFF;
+	box-shadow: 0 10px 45px rgba(0,0,0,0.1);
+	height: 25rem;
+}
+.paragraph--type--services:hover,
+.paragraph--type--services:focus {
+	bottom: 50px;
+	border-bottom: 6px solid #1837AC;
+}
+.field--name-field-services-image img {
+	width: 100%;
+	height: 100%;
+}
+.field--name-field__services-icone {
+	position: absolute;
+    top: 6.5rem;
+    width: 9rem;
+    height: 6rem;
+    background-color: white;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+.field--name-field-category-services {
+	color: #A7A7A7;
+	font: 0.8rem Roboto;
+	text-transform: uppercase;
+	margin-top: 1rem;
+    padding-left: 3rem;
+}
+.field--name-field-title-for-service {
+	color: #3F3F3F;
+	font: bold 1.6rem "Roboto Condensed";
+	margin-top: 1rem;
+    padding-left: 2rem;
+}
+.field--name-field-description-for-service p {
+	color: #A7A7A7;
+	font: 1rem Roboto;
+	margin-top: 1rem;
+    padding: 0 2rem;
+}
+.field--name-field-title-why-choose-us {
+	display: inline;
+}
+.field--name-field-title-for-why-choose-us {
+	margin-top: 4rem;
+}
+#title_chouse_us_light {
+	font: 3rem "Roboto";
+}
+span#title_chouse_us {
+	font: bold 3rem "Roboto Condensed";
+}
+.field--name-field-image img {
+	fill: #1837AC;
+	height: 72px;
+	width: 74px;
+}
+.choose_us {
+	flex-basis: 22%;
+	text-align: center;
+	justify-content: center;
+}
+.paragraph--type--choose-us {
+	margin-top: 3rem;
+}
+.field--name-field-title-for-paragraf {
+	color: #3F3F3F;
+	font: bold 1.8rem "Roboto Condensed";
+	padding-bottom: 1rem;
+}
+.field--name-field-description-for-paragraf {
+	color: #A7A7A7;
+	font: 16px "Roboto";
+}
+#block-logisticodometrfrontpage {
+	margin-top: 7rem;
+	margin-right: 4rem;
+    height: 41rem;
+	align-items: center;
+	padding: 0;
+	float: right;
+}
+.field--name-field-ico-for-odometer img {
+	height: 7rem;
+	opacity: 0.1;
+}
+.paragraph--type--odometr {
+	display: flex;
+	align-items: center;
+	margin-top: 4rem;
+	padding-left: 2rem;
+}
+.field--name-field-description-for-odometer h1,
+.block-views-block-news-block-1 h2 {
+	color: #1837AC;
+	font: normal 2rem "Roboto";
+	margin: 0;
+	text-transform: none;
+}
+.field--name-field-description-for-odometer span {
+	color: #A7A7A7;
+	font-size: 0.7rem;
+    line-height: 2;
+}
+#block-requestafreequoteblock {
+	margin-top: 7rem;
+	padding: 4rem;
+	background-color: #fff;
+	box-shadow: 0 10px 45px rgba(0,0,0,0.1);
+}
+#request-data {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	    margin-top: 3rem;
+}
+#request-data fieldset,
+#request-data option {
+	border-bottom: 2px solid #E5E5E5;
+
+}
+#request-data .form-group {
+    margin-bottom: 2rem;
+}
+#request-data .form-control {
+	border: none;
+	font: 1rem 'Roboto';
+	opacity: 0.5;
+}
+.form-item-first-name {
+	flex-basis: 30%;
+}
+.form-item-email {
+	flex-basis: 60%;
+}
+.form-item-ware-housing,
+.form-item-subject {
+	flex-basis: 45%;
+}
+.form-item-message {
+	flex-basis: 100%;
+}
+#edit-submit {
+	width: 100%;
+    margin-top: 2rem;
+}
+
+#block-views-block-blog-articls-block {
+	background-color: #fff;
+	box-shadow: 0 10px 45px rgba(0,0,0,0.1);
+	margin-top: 5.5rem;
+	padding: 4rem 0;
+	display: flex;
+}
+.articles-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+.articles-blog {
+	padding: 0;
+}
+.article-background-img img {
+	width: 100%;
+	height: 100%;
+	
+}
+.article-background-img {
+	position: relative;
+	width: 100%;
+}
+.article-background-img::before {
+	background: rgba(0,0,0,0.5);
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	display: block;
+}
+.article-background-img:hover::before {
+	background: rgba(24,55,172,0.5);
+	width: 100%;
+	height: 100%;
+	content: " ";
+	position: absolute;
+	display: block;
+}
+.views-view-grid {
+	padding: 0;
+}
+.blog-block {
+	position: relative;
+}
+.date-blog {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	color:#fff;
+}
+.blog-statistique {
+	position: absolute;
+	top: 25px;
+	left: 90px;
+	color:#fff;
+}/*
+.blog-statistique::before {
+	content: "\f06e";
+}*/
+.articls-title-link a{
+	position: absolute;
+	top: 80px;
+	left: 25px;
+	color:#fff;
+	font: 13px "Roboto Condensed";
+	text-transform: none;
+}
+.more-link {
+	position: absolute;
+	top: -2rem;
+	left: 30%;
+	color: #1837AC;
+	font: bold 0.8rem "Roboto Condensed";
+	text-transform: uppercase;
+}/*
+.more-link::after {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+	content: "\f178";
+}*/
+#block-views-block-news-block-1 .more-link {
+	left: 50%;
+}
+#block-views-block-news-block-1 {
+	margin-top: 5.5rem;
+	padding: 3rem 0 0 8rem;
+}
+#block-views-block-news-block-1 h2 {
+	padding-left: 1rem;
+}
+ul.news {
+	align-items: center;
+	padding-right: 2rem;
+}
+ul.news li {
+	height: 25%;
+	padding-left: 1rem;
+}
+.news p {
+	color: #A7A7A7;
+	font: 1rem "Roboto";
+}
+.news-content {
+	padding-bottom: 0;
+	border-bottom: 2px solid #E5E5E5;
+}
+.date-news {
+	color: #3F3F3F;
+	font: bold 1.6rem "Roboto Condensed";
+	padding: 0.7rem;
+}
+.news li:hover,
+.news li:focus {
+	background: #fff url(../img/javier-garcia-314759-unsplash.jpg) no-repeat;
+	opacity: 0.5;
+	margin-bottom: 1px;
+}
+.news p:hover,
+.news p:focus,
+.date-news:hover,
+.date-news:focus {
+	color: #fff;
+}
+#block-views-block-clients-block-1 {
+	margin: 5rem 0;
+}
+.jcarousel-wrapper.jcarousel-skin-default.jcarousel-visible-6 {
+    width: 100%;
+}
+.jcarousel-skin-default .jcarousel ul {
+	display: flex;
+	align-items: baseline;
+}
+.carusel-clients .jcarousel li {
+    width: 9.8rem;
+}
+.jcarousel-wrapper.jcarousel-skin-default {
+    margin: 20px auto;
+    position: relative;
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 0 0 #fff;
+    -moz-box-shadow: 0 0 0 #fff;
+    box-shadow: 0 0 0 #fff;
+}
+.jcarousel-skin-default .jcarousel li.list-group-item {
+	border: none;
+}
+.jcarousel-skin-default .jcarousel-control-prev,
+.jcarousel-skin-default .jcarousel-control-next {
+	height: 36px;
+    width: 36px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    color: #1837AC;
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 2rem;
+    line-height: 1;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.jcarousel-skin-default .jcarousel-control-prev {
+    left: 10rem;
+    top: -4.6rem;
+}
+.jcarousel-skin-default .jcarousel-control-next {
+    left: 12.3rem;
+    top: -4.6rem;
+}
+.jcarousel .list-group-item {
+	background: transparent;
+}
+.jcarousel-skin-default .jcarousel li {
+    height: 100%;
+}
+.clients_say_block {
+	background-color: #fff;
+	padding-top: 5rem;
+}
+.jcarousel-wrapper.jcarousel-skin-default.jcarousel-visible-3 {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.jcarousel-visible-3 .jcarousel-control-prev{
+	left: 23rem;
+}
+.jcarousel-visible-3 .jcarousel-control-next {
+	left: 25.3rem;
+}
+.jcarousel-visible-3 .jcarousel li {
+    width: 19.5rem;
+    padding: 1.1rem;
+}
+
+.jcarousel-visible-3 .jcarousel li:first-child {
+	padding-left: 0;
+}
+.jcarousel-visible-3 .jcarousel img {
+    max-width: 25%;
+    padding: 0 0.5rem;
+}
+.circle {
+	border-radius: 50%;
+}
+.jcarousel-visible-3 span {
+	display: inline-block;
+}
+.client_viue h5 {
+	font-weight: normal;
+}
+.background-quote {
+	background: url(../img/“.svg) no-repeat left top;
+	padding-left: 2.1rem;
+	margin-top: 1.5rem;
+}
+.jcarousel-visible-3 .jcarousel li p {
+	color: #A7A7A7;
+	font: 1rem "Roboto Condensed";
+	line-height: 1;
+}
+.site-footer {
+	padding-bottom: 0;
+}
+.site-footer__top {
+	margin-bottom: 2rem;
+}
+.site-footer__top .region {
+    width: 25%;
+}
+.site-footer .block {
+    border: none;
+    padding-right: 3rem;
+}
+.site-footer .block:last-child {
+	padding-right: 0;
+}
+.site-footer h2{
+	color: #fff;
+	font: 1.5rem "Roboto Condensed";
+	padding-bottom: 1rem;
+	border: none;
+}
+.hr_line_footer {
+	height: 2px;
+	background: #fff;
+	opacity: 0.3;
+	width: 6.5rem;
+	margin-bottom: 1.5rem;
+}
+.site-footer .field__item {
+	padding: 0.6rem 0;
+}
+#block-services {
+    padding-right: 7rem;
+}
+.site-footer__top p {
+	line-height: 1;
+	color: #9CBFE6;
+}
+.fontawesome-icons {
+	display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-right: 8rem;
+}
+
+.site-footer__top h2.tel {
+border: none;
+}
+.request_a_call_back {
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	background-color: transparent;
+	color: #fff;
+	font: 1rem "Roboto Condensed";
+	text-align: center;
+	align-items: center;
+	padding: 1rem;
+    width: 100%;
+}
+.request_a_call_back:hover,
+.request_a_call_back:focus {
+	background-color: #fff;
+	color: #1837AD;
+}
+.svg-inline--fa {
+	margin-right: 0.5rem;
+}
+.site-footer__bottom {
+    margin-top: 0;
+    border-top: 2px solid #fff;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+#block-allrightsreserved .text-formatted,
+#block-privacypolicy .text-formatted {
+	color: #9CBFE6;
+	font: 1rem 'Roboto';
+}
+.view-frontpage {
+	display: none;
+}

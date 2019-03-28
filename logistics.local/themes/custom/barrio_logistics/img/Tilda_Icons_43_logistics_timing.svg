@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 101 101"
+   version="1.1"
+   sodipodi:docname="Tilda_Icons_43_logistics_timing.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="836"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="2.3366337"
+     inkscape:cx="3.8516949"
+     inkscape:cy="50.5"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <title
+     id="title2">log_Artboard 2</title>
+  <path
+     d="M79.5,24h7a1.5,1.5,0,0,0,0-3h-10A1.5,1.5,0,0,0,75,22.5v10a1.5,1.5,0,0,0,3,0V26.81A36.62,36.62,0,0,1,87,51,37,37,0,1,1,50,14a1.5,1.5,0,0,0,0-3A40,40,0,1,0,90,51,39.59,39.59,0,0,0,79.5,24Z"
+     id="path4"
+     style="fill:#1837ac;fill-opacity:1" />
+  <path
+     d="M23,51.5A27.5,27.5,0,1,0,50.5,24,27.53,27.53,0,0,0,23,51.5Zm52,0A24.5,24.5,0,1,1,50.5,27,24.53,24.53,0,0,1,75,51.5Z"
+     id="path6"
+     style="fill:#1837ac;fill-opacity:1" />
+  <path
+     d="M49,34.5v17a1.5,1.5,0,0,0,2.56,1.06l13-13a1.5,1.5,0,0,0-2.12-2.12L52,47.88V34.5a1.5,1.5,0,0,0-3,0Z"
+     id="path8"
+     style="fill:#1837ac;fill-opacity:1" />
+</svg>

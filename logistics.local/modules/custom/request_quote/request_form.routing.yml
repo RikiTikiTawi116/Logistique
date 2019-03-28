@@ -1,0 +1,6 @@
+request_quote.add_request_quote:
+  path:  '/request_quote'
+  defaults:
+    _form:  '\Drupal\request_quote\Form\AddRequestQuote'
+    _title:  'Request a free quote'
+  requirements:

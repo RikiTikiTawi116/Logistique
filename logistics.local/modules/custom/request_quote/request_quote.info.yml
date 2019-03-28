@@ -1,0 +1,7 @@
+name:  request_quote
+type:  module
+description:  Request a free quote
+package:  Custom
+core:  8.x
+dependencies:
+  - block
