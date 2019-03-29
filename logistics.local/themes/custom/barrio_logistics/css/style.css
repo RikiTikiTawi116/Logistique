@@ -1102,3 +1102,27 @@ span#title_chouse_us {
     margin: 0;
 }
 }
+
+@media screen and (max-width:320px){
+	.carusel-clients .jcarousel li {
+    width: 9.5rem;
+}
+.jcarousel-visible-3 .jcarousel li {
+    width: 17.5rem;
+}
+}
+@media screen and (max-width:375px){
+.jcarousel-visible-3 .jcarousel-control-prev {
+    left: 12.8rem;
+}
+.jcarousel-visible-3 .jcarousel-control-next {
+    left: 15rem;
+}
+.carusel-clients .jcarousel li {
+    width: 11.7rem;
+}
+.jcarousel-visible-3 .jcarousel li {
+    width: 21.7rem;
+    margin-left: 0;
+}
+}
