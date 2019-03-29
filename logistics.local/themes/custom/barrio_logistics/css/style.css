@@ -152,6 +152,10 @@ p {
 	justify-content: center;
 	height: 100%;
 }
+#sm_collaps_bar {
+	display: flex;
+	height: 100%;
+}
 #block-barrio-logistics-main-menu {
 	font: bold 1rem "Roboto Condensed";
 	height: 100%;
@@ -179,6 +183,10 @@ p {
 	text-transform: uppercase;
 	padding: 0.7rem 1.4rem;
     line-height: .9;
+}
+#block-social,
+#block-getquotation {
+	line-height: 4;
 }
 ul.nav.navbar-nav.social li {
 	padding-left: 30px;
@@ -715,7 +723,7 @@ border: none;
 	display: none;
 }
 
-@media screen and (max-width:1440px){
+@media only screen and (max-width : 1440px) {
 .carusel-clients .jcarousel li {
     width: 8.8rem;
 }
@@ -727,7 +735,7 @@ h2.tel {
 	font-size: 1.4rem;
 }
 }
-@media screen and (max-width:1280px){
+@media only screen and (max-width : 1280px){
 .carusel-clients .jcarousel li {
     width: 7.6rem;
 }
@@ -746,7 +754,7 @@ h2.tel {
 }
 
 }
-@media screen and (max-width:1024px){
+@media only screen and (max-width : 1024px) {
 	.field--name-field-ico-for-odometer img {
     height: 6rem;
 }
@@ -785,7 +793,7 @@ h2.tel {
     font-size: .9rem;
 }
 }
-@media screen and (max-width:768px){
+@media only screen and (max-width : 768px) {
 .navbar-top {
     padding: 1.8rem 2rem;
 }
@@ -823,12 +831,12 @@ h2.tel {
 }
 #block-social {
 	position: absolute;
-    top: .5rem;
+    top: -0.8rem;
     left: 4rem;
 }
 #block-getquotation {
 	position: absolute;
-    top: 0.5rem;
+    top: -0.8rem;
     right: 4rem;
 }
 ul.nav.navbar-nav.social {
@@ -884,7 +892,7 @@ h1 {
     padding-right: 0;
 }
 }
-@media screen and (max-width:425px){
+@media only screen and (max-width : 425px) {
 .region-top-header {
 	flex-direction: column;
 }
@@ -908,12 +916,16 @@ h1 {
 	align-items: baseline;
     padding: 1rem;
 }
+#block-social,
+#block-getquotation {
+    line-height: 1;
+}
 #block-barrio-logistics-main-menu {
 	padding-left: 0;
 	top: -2.5rem;
     position: relative;
 }
-}
+
 #block-social {
 	position: relative;
     width: 40%;
@@ -1103,7 +1115,7 @@ span#title_chouse_us {
 }
 }
 
-@media screen and (max-width:320px){
+@media only screen and (max-width : 320px) {
 	.carusel-clients .jcarousel li {
     width: 9.5rem;
 }
@@ -1111,7 +1123,7 @@ span#title_chouse_us {
     width: 17.5rem;
 }
 }
-@media screen and (max-width:375px){
+@media only screen and (max-width : 375px) {
 .jcarousel-visible-3 .jcarousel-control-prev {
     left: 12.8rem;
 }
