@@ -96,12 +96,14 @@
             {% if page.primary_menu or page.header_form %}
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
               <div class="collapse navbar-collapse" id="CollapsingNavbar">
+                <div id="sm_collaps_bar">
                 {{ page.primary_menu }}
                 {% if page.header_form %}
                   <div class="form-inline navbar-form float-right">
                     {{ page.header_form }}
                   </div>
                 {% endif %}
+                </div>
             </div>
             {% endif %}
             {% if sidebar_collapse %}
@@ -172,7 +174,7 @@
         <div class="{{ container }}">
           {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
             <div class="site-footer__top clearfix row justify-content-center">
-              <div class="col-lg-7 col-sm-10 justify-content-between">
+              <div class="col-lg-7 col-md-10 footer_top justify-content-between">
               {{ page.footer_first }}
               {{ page.footer_second }}
               {{ page.footer_third }}

@@ -1,10 +1,10 @@
 /**
  * @file
  * Subtheme specific CSS.
- */
+ 
 #toolbar-administration {
 	display: none;
-}
+}*/
 
 h1 {
 	font-size: 3.5rem;
@@ -23,7 +23,6 @@ h5 {
 	font-size: 1.5rem;
 }
 p {
-	line-height: 0.1;
 	font-size: 0.9rem;
 }
 .container-fluid {
@@ -42,14 +41,20 @@ p {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0,0.3)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .navbar-toggler {
-    border: 1px solid rgba(0,0,0,0.3);
     margin-left: 1rem;
+}
+.navbar-toggler:focus,
+.navbar-toggler:hover {
+	border: none;
 }
 #navbar-top {
 	max-width: 1104px;
 	justify-content: center;
 	margin: 0 auto;
     padding: 1.8rem 0;
+}
+.navbar-brand {
+	margin-right: 0;
 }
 .img-fluid {
     max-width: 80%;
@@ -148,7 +153,7 @@ p {
 	height: 100%;
 }
 #block-barrio-logistics-main-menu {
-	font: bold 18px "Roboto Condensed";
+	font: bold 1rem "Roboto Condensed";
 	height: 100%;
 	align-items: center;
     display: flex;
@@ -172,7 +177,7 @@ p {
 	border-right: 1px solid #DBDBDB;
 	color: #3F3F3F;
 	text-transform: uppercase;
-	padding: 0.7rem 2rem;
+	padding: 0.7rem 1.4rem;
     line-height: .9;
 }
 ul.nav.navbar-nav.social li {
@@ -188,12 +193,11 @@ ul.nav.navbar-nav.social li {
 	display: flex;
 }
 .get_quotation {
-	padding-left: 121px;
+	padding-left: 4rem;
 	list-style: none;
 }
 .get_quotation a {
 	color: #1837AC;
-	color: #3F3F3F;
 	font: bold 18px "Roboto Condensed";
 	text-transform: uppercase;
 	text-decoration: none;
@@ -205,9 +209,6 @@ ul.nav.navbar-nav.social li {
 	padding: 0;
 	background-size: 100%;
 }
-#block-heroscreen {
-	width: 100%;
-}
 .hero_screen {
 	color: #fff;
 	text-align: center;
@@ -215,6 +216,10 @@ ul.nav.navbar-nav.social li {
 }
 .hero_screen h1 {
 	margin-bottom: 1.4rem;
+}
+#hero_screen {
+	width: 70%;
+	margin: 0 auto;
 }
 #hero_buttons button {
 	margin: 1rem;
@@ -242,7 +247,13 @@ ul.nav.navbar-nav.social li {
 	margin-top: 158px;
 }
 .field__item.service {
-	margin: 2rem 1rem;
+	padding: 2rem 1rem;
+}
+.field__item.service:first-child {
+	padding-left: 0;
+}
+.field__item.service:last-child {
+	padding-right: 0;
 }
 .paragraph--type--services {
 	position: relative;
@@ -632,6 +643,9 @@ ul.news li {
 .site-footer__top .region {
     width: 25%;
 }
+.footer_top {
+	display: flex;
+}
 .site-footer .block {
     border: none;
     padding-right: 3rem;
@@ -654,9 +668,6 @@ ul.news li {
 }
 .site-footer .field__item {
 	padding: 0.6rem 0;
-}
-#block-services {
-    padding-right: 7rem;
 }
 .site-footer__top p {
 	line-height: 1;
@@ -702,4 +713,392 @@ border: none;
 }
 .view-frontpage {
 	display: none;
+}
+
+@media screen and (max-width:1440px){
+.carusel-clients .jcarousel li {
+    width: 8.8rem;
+}
+.jcarousel-visible-3 .jcarousel li {
+    width: 17.7rem;
+    padding: 1.1rem;
+}
+h2.tel {
+	font-size: 1.4rem;
+}
+}
+@media screen and (max-width:1280px){
+.carusel-clients .jcarousel li {
+    width: 7.6rem;
+}
+.jcarousel-visible-3 .jcarousel li {
+    width: 15.8rem;
+}
+.site-footer__top h2.tel {
+    font-size: 1.2rem;
+}
+.request_a_call_back {
+    font-size: 0.8rem;
+}
+#block-allrightsreserved .text-formatted,
+#block-privacypolicy .text-formatted {
+	font-size: 0.8rem;
+}
+
+}
+@media screen and (max-width:1024px){
+	.field--name-field-ico-for-odometer img {
+    height: 6rem;
+}
+.paragraph--type--odometr {
+    flex-direction: column;
+}
+#block-views-block-news-block-1 .more-link {
+    left: 60%;
+}
+.more-link {
+    left: 40%;
+}
+.news p {
+    font-size: 0.7rem;
+}
+.carusel-clients .jcarousel li {
+    width: 7.5rem;
+}
+.jcarousel-visible-3 .jcarousel li {
+    width: 13rem;
+}
+.site-footer .field__item {
+	padding-top: 0;
+}
+.field--name-field-logo-footer img {
+	width: 80%;
+}
+.field--name-field-logo-footer h2,
+.site-footer h2 {
+	font-size: 1rem;
+}
+.request_a_call_back {
+    font-size: 0.6rem;
+}
+.site-footer__top h2.tel {
+    font-size: .9rem;
+}
+}
+@media screen and (max-width:768px){
+.navbar-top {
+    padding: 1.8rem 2rem;
+}
+.region-top-header {
+	margin: 0 1rem;
+}
+.navbar-brand {
+    margin-right: 0;
+}
+.img-fluid {
+    max-width: 60%;
+}
+#block-callus, #block-writetous, #block-address {
+    padding-left: 1rem;
+    font-size: 0.7rem;
+}
+#block-callus {
+	padding-left: 0;
+}
+.call_us::before,
+.write_to_us::before,
+.our_address::before {
+    width: 1.6rem;
+}
+.call_us span,
+.call_us a,
+.write_to_us span,
+.write_to_us a,
+.our_address span,
+.our_address address {
+    padding-left: 2rem;
+}
+#block-barrio-logistics-main-menu {
+	padding-left: 5rem;
+}
+#block-social {
+	position: absolute;
+    top: .5rem;
+    left: 4rem;
+}
+#block-getquotation {
+	position: absolute;
+    top: 0.5rem;
+    right: 4rem;
+}
+ul.nav.navbar-nav.social {
+	flex-direction: row;
+	
+}
+.hero_screen {
+    margin-top: 2rem;
+}
+h1 {
+    font-size: 2rem;
+}
+.field--name-field__services-icone {
+    top: 9.2rem;
+    width: 12rem;
+    height: 10rem;
+    margin: 0;
+}
+.field--name-field__services-icone img {
+	width: 60%;
+	height: 70%;
+}
+.paragraph--type--services {
+    height: auto;
+    padding-bottom: 2rem;
+}
+.field__item.service:first-child {
+    padding: 0;
+}
+.field__item.service {
+    padding: 0;
+    margin-bottom: 2rem;
+}
+.field--name-field-odometr-paragraph {
+	display: flex;
+	justify-content: space-between;
+}
+#block-logisticodometrfrontpage {
+    margin-top: 0;
+    height: auto;
+    margin-bottom: 2rem;
+}
+#block-requestafreequoteblock {
+	margin-top: 0;
+}
+.carusel-clients .jcarousel li {
+    width: 6.5rem;
+}
+.site-footer__top {
+    margin-bottom: 0;
+}
+.fontawesome-icons {
+    padding-right: 0;
+}
+}
+@media screen and (max-width:425px){
+.region-top-header {
+	flex-direction: column;
+}
+#navbar-top {
+    padding: 1rem 0;
+}
+ #block-writetous, #block-address {
+    padding-left: 0;
+    padding-top: .5rem;
+}
+#navbar-main {
+	height: auto;
+}
+.navbar-toggler {
+    position: absolute;
+    top: -10rem;
+}
+#sm_collaps_bar {
+	display: flex;
+	flex-wrap: wrap-reverse;
+	align-items: baseline;
+    padding: 1rem;
+}
+#block-barrio-logistics-main-menu {
+	padding-left: 0;
+	top: -2.5rem;
+    position: relative;
+}
+}
+#block-social {
+	position: relative;
+    width: 40%;
+    top: -4px;
+	left: 3rem;
+}
+#block-getquotation {
+	position: relative;
+	width: 50%;
+	top: auto;
+	left: 9rem;
+}
+#block-barrio-logistics-main-menu ul {
+	width: 100%;
+	align-items: flex-start;
+}
+#block-barrio-logistics-main-menu ul li {
+    align-items: flex-start;
+    }
+#block-barrio-logistics-main-menu ul li a {
+	border: none;
+	font-size: 1rem;
+}
+.navbar-brand {
+	padding-left: 3rem;
+}
+.call_us::before {
+ 	width: 1.5rem;
+}
+h1 {
+    font-size: 1rem;
+}
+h2 {
+    font-size: 1.8rem;
+}
+.hero_screen {
+    margin-top: 1rem;
+}
+.hero_screen h1 {
+    margin-bottom: .8rem;
+}
+p {
+    line-height: 1;
+    font-size: 0.7rem;
+    margin-bottom: 0;
+}
+#hero_buttons button {
+	box-shadow: 0 10px 45px rgba(0,0,0,0.1);
+	font-size: 0.6rem;
+	padding: 0.6rem;
+}
+#block-sargostorage {
+	margin-top: 0;
+}
+.field--name-field__services-icone {
+    top: 5.2rem;
+    width: 8rem;
+    height: 6rem;
+}
+.field__item.service {
+    margin-bottom: 0;
+    padding-top: 1rem;
+}
+#block-sargostorage {
+    margin: 0;
+}
+.choose_us {
+    flex-basis: 100%;
+	justify-content: center !important;
+}
+#title_chouse_us_light,
+span#title_chouse_us {
+	font-size: 2rem;
+}
+.field--name-field-title-for-paragraf {
+	font-size: 1.5rem;
+}
+#block-whychouseus {
+	padding: 2rem 2rem 0;
+}
+.field--name-field-why-choose-us-items {
+	justify-content: center;
+}
+#block-logisticodometrfrontpage,
+#block-requestafreequoteblock {
+	margin: 0;
+}
+.field--name-field-odometr-paragraph {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.paragraph--type--odometr {
+	padding-left: 0;
+	margin-top: 2rem;
+}
+.form-item-first-name,
+.form-item-email,
+.form-item-ware-housing,
+.form-item-subject {
+    flex-basis: 100%;
+}
+#block-views-block-blog-articls-block {
+    margin-top: 1.5rem;
+}
+.articls_blog {
+	padding: 0 2rem;
+}
+#block-views-block-news-block-1 {
+    margin-top: 1rem;
+}
+#block-views-block-news-block-1,
+#block-views-block-clients-block-1,
+#block-views-block-what-slients-say-block-1 {
+	padding-left: 2rem;
+}
+#block-views-block-clients-block-1 {
+    margin: 3rem 0;
+}
+.jcarousel-skin-default .jcarousel-control-prev,
+.jcarousel-skin-default .jcarousel-control-next {
+    height: 2rem;
+    width: 2rem;
+    line-height: -0.5;
+}
+.carusel-clients .jcarousel li {
+    width: 8.5rem;
+}
+.jcarousel-visible-6 .jcarousel img {
+    max-width: 60%;
+    }
+#block-views-block-clients-block-1 {
+	margin-bottom: 0;
+}
+.clients_say_block {
+    padding-top: 2rem;
+}
+.jcarousel-skin-default .jcarousel-control-prev,
+
+.jcarousel-skin-default .jcarousel-control-next {
+    top: -4.2rem;
+}
+.jcarousel-visible-3 .jcarousel-control-next {
+    left: 17.1rem;
+}
+.jcarousel-visible-3 .jcarousel-control-prev {
+    left: 14.8rem;
+}
+.jcarousel-visible-3 .jcarousel li {
+    width: 24rem;
+    margin-left: 1rem;
+}
+.jcarousel-visible-3 .jcarousel img {
+    max-width: 30%;
+}
+.footer_top {
+	flex-wrap: wrap;
+	padding: 0 2rem;
+}
+.site-footer__top .region {
+    flex-basis: 50%;
+}
+.field--name-field-logo-footer h2,
+.site-footer h2 {
+    font-size: .8rem;
+}
+.site-footer__top p {
+	font-size: 0.6rem;
+}
+.site-footer .block:last-child {
+    padding-right: 1rem;
+}
+.site-footer .block {
+    margin: 0;
+}
+.site-footer__bottom {
+	padding: 0 2rem;
+}
+#block-allrightsreserved .text-formatted,
+#block-privacypolicy .text-formatted {
+    font-size: 0.6rem;
+}
+.site-footer .field__item {
+    padding: 0;
+}
+.site-footer__bottom .block {
+    margin: 0;
+}
 }

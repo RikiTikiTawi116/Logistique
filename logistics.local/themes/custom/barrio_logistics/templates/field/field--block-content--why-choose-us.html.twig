@@ -59,13 +59,13 @@
 
     <div{{ attributes.addClass(classes, 'row justify-content-between field__items choose_us') }}>
       {% for item in items %}
-        <div{{ item.attributes.addClass('col-lg-3 col field__item choose_us') }}>{{ item.content }}</div>
+        <div{{ item.attributes.addClass('col-lg-3 col-10 field__item choose_us') }}>{{ item.content }}</div>
       {% endfor %}
     </div>
   </div>
   {% else %}
     {% for item in items %}
-      <div{{ attributes.addClass(classes, 'col-lg-3 col field__item') }}>{{ item.content }}</div>
+      <div{{ attributes.addClass(classes, 'col-lg-3 col-10 field__item') }}>{{ item.content }}</div>
     {% endfor %}
   {% endif %}
 {% else %}
@@ -75,7 +75,7 @@
       <div class='field__items choose_us justify-content-between row'>
     {% endif %}
     {% for item in items %}
-      <div{{ item.attributes.addClass('col-lg-3 col field__item choose_us') }}>{{ item.content }}</div>
+      <div{{ item.attributes.addClass('col-lg-3 col-10 field__item choose_us') }}>{{ item.content }}</div>
     {% endfor %}
     {% if multiple %}
       </div>

@@ -39,7 +39,7 @@ class AddRequestQuote extends FormBase {
      $form['ware_housing'] = [
         '#type' => 'select',
         '#placeholder' => t('Ware Housing'),
-        '#options' => array('Ware Housing, Ware Housing 1', 'Ware Housing 2', 'Ware Housing 3'),
+        '#options' => array('Ware Housing', 'Ware Housing 1', 'Ware Housing 2', 'Ware Housing 3'),
       ];
 
       $form['subject'] = [
