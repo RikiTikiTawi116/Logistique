@@ -755,7 +755,24 @@ h2.tel {
 
 }
 @media only screen and (max-width : 1024px) {
-	.field--name-field-ico-for-odometer img {
+.field--name-field__services-icone {
+    top: 3.5rem;
+    width: 6rem;
+    height: 5rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.field--name-field-title-for-service {
+	font-size: 1.3rem;
+}
+.paragraph--type--services {
+	height: 20rem;
+}
+.field--name-field__services-icone img{
+	width: 2.5rem;
+    height: 2.5rem;
+    }
+.field--name-field-ico-for-odometer img {
     height: 6rem;
 }
 .paragraph--type--odometr {
